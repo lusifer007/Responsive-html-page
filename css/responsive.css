@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media (max-width:1024px)
+{
+	div.about-box img{
+		width: 40%;
+		display: block;
+	}
+	div.about-text{
+		width: 60%;
+		padding: 10px 40px;
+		display: block;
+		
+	}
+	div.about-text span{
+		font-size: 25px;
+	}
+	div.about-text-1{
+		float: left;
+		clear: left;
+		
+	}
+	div.about-text-1 span,div.about-text-2 span,div.about-text-3 span,div.about-text-4 span{
+		font-size: 20px;
+		font-weight: bold;
+		
+	}
+	div.about-text-2{
+		float: left;
+		clear: left;
+		
+	}
+	
+	div.about-text-3{
+		float: left;
+		clear: left;
+		
+	}
+	div.about-text-4{
+		float: left;
+		clear: left;
+		
+	}
+	.myskill{
+		width: 60%;
+	}
+	.skill-bar{
+		width: 50%;
+	}
+
+}
+
+
+@media (max-width:768px)
+{
+	div.about-text-1,div.about-text-2,div.about-text-3,div.about-text-4{
+		display: none;
+	}	
+	div.about-text p{
+		font-size: 18px;
+	}
+}
+
+
+@media (max-width:480px){
+	
+	h1.project-header{
+		margin: 5px 0px;
+	}
+	div.about-box img{
+		width: 100%;
+	}
+	div.about-text{
+		width: 100%;
+		margin: 0;
+	}
+	div.about-text-1,div.about-text-2,div.about-text-3,div.about-text-4{
+		display: block;
+	}
+	div.myskill{
+		width: 100%;
+		margin: 0px 0px;
+	}
+	div.myskill span,div.myskill p,div.myskill button{
+		margin-left: 40px;
+	}
+	div.skill-bar{
+		width: 100%;
+		margin: 0px 0px;
+	}
+	
+}

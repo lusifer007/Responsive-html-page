@@ -1,0 +1,551 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.border{
+	border-width: 1px;
+	border-color: red;
+	border-style: solid;
+}
+.loader-con{
+	width: 100%;
+	min-height: 100%;
+	background-color: #08DDEB;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.slide-left{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 50%;
+	min-height: 100%;
+	background-color: #f5f5f5;
+	z-index: 1;
+}
+.slide-right{
+	width: 50%;
+	min-height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-color: #f5f5f5;
+	z-index: 1;
+}
+.loader{
+	top: 45%;
+	left: 48%;
+	position: absolute;
+	z-index: 1;
+}
+/* START  mobile NAV CODING*/
+
+#menu,.slicknav_menu,.desk{
+	display: none;
+}
+/*STRAT MOBILE RESPONSIVE CODING*/
+@media screen and (max-width:992px)
+{
+	.slicknav_menu{display: block;}
+	.big_slider{
+	top: 0px;
+	z-index: -1;
+    }
+/*FIRST PIC LABLE CODING*/
+
+	
+
+/*END FIRST PIC LABLE CODING*/
+	
+}
+/*END MOBILE RESPONSIVE CODING*/
+/*START DESKTOP RESPONSIVE CODING*/
+@media screen and (min-width:992px)
+{
+	.desk{display: block;
+	z-index: 1;
+	}
+	.big_slider{
+	top: 50px;
+	z-index: -1;
+	
+	
+	
+}
+	.slider-label{
+	width: 100%;
+	height: 1080px;
+	
+	float: left;
+	margin-top: -1080px;
+}
+.picone-header{
+	margin-top: 300px;
+	font-size: 50px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	color: #EBEA0A;
+	display: none;
+	
+	
+}
+.picone-btn{
+	width: 105px;
+	border: none;
+	padding: 15px;
+	font-weight: bold;
+	background-color: #00F6FF;
+	display: none;
+}
+.picone-btn a {
+	color: white;
+}
+	
+/*START PICTWO CODING*/
+	.pictwo-header{
+		margin-top: 200px;
+		font-size: 80px;
+		font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+		color: #fff;display: none;
+	}	
+	.pictwo-para{
+		font-size: 50px;
+		font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+		margin-top: -10px;
+		color: yellow;display: none;
+	}
+	.pictwo-btn{
+		background: red;
+		padding: 15px;
+		border: none;
+		box-shadow: 0px 0px 5px white;display: none;
+	}
+	.pictwo-btn a{
+		color: white;
+	}
+/*END PICTWO CODING*/
+}
+/*START DESKTOP RESPONSIVE CODING*/
+/*END  mobile NAV CODING*/
+
+/*START  DESKTOP NAV CODING*/
+.desk{
+	padding: 15px;
+	margin: 0;
+	list-style: none;
+	width: 100%;
+	height: 60px;
+	box-shadow: 0px 5px 8px 0px rgba(0,0,0,0.2);
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+.brand_name{
+	float: left;
+	
+}
+.brand_name li a{
+	color: #FF0E0F;
+	font-size: 28px;
+	font-family: 'Roboto Slab', serif;
+}
+.top_right_nav{
+	float: right;
+}
+.top_right_nav li{
+	display: inline-block;
+	padding: 10px;
+	margin: 0px 12px;
+	
+}
+.top_right_nav a{
+	font-family: 'Roboto Slab', serif;
+}
+.top_right_nav li:hover{
+	
+	background-color: #ff0e0f;
+	transition: 1s;
+}
+
+.top_right_nav li:hover a{
+	color: white;
+	font-weight: bold;
+}
+/*end  DESKTOP NAV CODING*/
+
+
+/*START SLIDER LABLE CODING*/
+
+/*END SLIDER LABLE CODING*/
+ 
+/*START MOBILE RESPONSIVE CODING*/
+@media screen and (max-width:321px)
+{
+	
+	.slider-label{
+	width: 100%;
+	height: 180px;
+	
+	float: left;
+	margin-top: -200px;
+	
+}
+.picone-header{
+	margin-top: 30px;
+	font-size: 30px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	color: #EBEA0A;
+	display: none;
+	
+	
+}
+.picone-btn{
+	width: 55px;
+	border: none;
+	padding: 1px;
+	font-weight: bold;
+	background-color: #00F6FF;
+	display: none;
+}
+.picone-btn a {
+	color: white;
+}
+	
+/*START PICTWO CODING*/
+	.pictwo-header{
+		margin-top: 50px;
+		font-size: 25px;
+		font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+		color: #fff;display: none;
+	}	
+	.pictwo-para{
+		font-size: 20px;
+		font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+		margin-top: -5px;
+		color: yellow;display: none;
+	}
+	.pictwo-btn{
+		background: red;
+		padding: 1px;
+		border: none;
+		box-shadow: 0px 0px 5px white;display: none;
+	}
+	.pictwo-btn a{
+		color: white;
+	}
+}
+/*END MOBILE RESPONSIVE CODING*/
+
+/*START PROJECT SLIDER CODING*/
+.project-header{
+	text-align: center;
+	color: #323232;
+	font-size: 40px;
+	margin-top: 150px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	
+}
+.slider{
+	width: 80%;
+	margin: 45px auto;
+	
+}
+.slick-slide{
+	margin: 0px 40px;
+}
+.slick-slide{
+	transition: all ease-in-out .3s;
+	opacity: .2;
+}
+.slick-slide img{
+	width: 70%;
+}
+.slick-prev:before,.slick-next:before{
+	color: red;
+	font-size: 40px;
+}
+.slick-prev,.slick-next{
+	margin-top: -10px;
+}
+.slick-active{
+	opacity: .5;
+}
+.slick-current{
+	opacity : 100;
+}
+
+/*END PROJECT SLIDER CODING*/
+/*START ABOUT ME CODING*/
+.about-box{
+	width: 100%;
+	float: left;
+	
+	
+}
+.about-box img{
+	width: 40%;
+	padding: 0;
+}
+
+.about-text{
+	width: 55%;	
+	float: right;
+	padding: 20px 80px;
+	display: none;
+	
+}
+.about-box-img{
+	display: none;
+}
+.about-text-main{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.about-text p{
+	font-size: 20px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+.about-text-1,.about-text-2{
+	width: 50%;
+	
+	float: left;
+	box-sizing: border-box;
+}
+.about-text-3,.about-text-4{
+	width: 50%;
+	
+	float: right;
+	box-sizing: border-box;
+	margin-top: 25px;
+}
+.about-text-1,.about-text-2,.about-text-3,.about-text-4 span{
+	font-size: 30px;
+	
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.myskill{
+	width: 50%;
+	margin: 10px 0px;
+	float: left;
+	box-sizing: border-box;
+	
+}
+.myskill span{
+	font-size: 30px;
+	margin-left: 20%;
+	font-weight: bold;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+.myskill p{
+	font-size: 20px;
+	margin-left: 20%;
+}
+.myskill button{
+	width: 20%;
+	height: 15%;
+	background-color: #07EE21;
+	font-size: 18px;
+	
+	margin-left:20%; 
+}
+.myskill a{
+	color: white;
+}
+.per{
+	width: 50%;
+	
+	float: right;
+	box-sizing: border-box;
+}
+
+.skill-bar{
+	width:40%;
+	float:left;
+	margin-left:5%;
+	margin-right:5%;
+	padding:30px 50px;
+}
+
+
+.skill-bar h2{
+	font-family:"Nunito",sans-serif;
+	color:#323232;
+	padding:0;
+	margin:0;
+	font-size:18px;
+}
+
+.progress-bar{
+	width:100%;
+	height:25px;
+	background:white;
+	margin-top:2px;
+	margin-bottom:25px;
+	float:left;
+}
+
+.progress-one,.progress-two,.progress-three,.progress-four,.progress-five{
+	width:0%;
+	text-align:center;
+	padding:3px;
+	font-family:sans-serif;
+	font-size:15px;
+	color:white;
+}
+
+.progress-one{
+	background:#00ff2a;
+	border:1px solid #00ff2a;
+}
+
+.progress-two{
+	background:Cyan;
+	border:1px solid Cyan;
+}
+
+.progress-three{
+	background:red;
+	border:1px solid red;
+}
+
+.progress-four{
+	background:blue;
+	border:1px solid blue;
+}
+
+.progress-five{
+	background:orange;
+	border:1px solid orange;
+}
+
+/*END ABOUT ME CODING*/
+
+/*START OF PEOPLE COMMENT SECTION*/
+.wps{
+	width: 100%;
+	
+	margin: 0 auto;
+}
+.wps1{
+	font-size: 45px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	
+}
+.wps_b{
+	width: 30%;
+	
+	float: left;
+	margin:20px 25px;
+	padding:30px 20px;
+	
+}
+.wps_b img{
+	float: left;
+	border-radius: 50%;
+}
+.wps_b h2{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	
+}
+
+/*END OF PEOPLE COMMENT SECTION*/
+/* start contact */
+
+.contacts{
+	width:100%;
+	padding:35px 20px;
+	float:left;
+	background:url("../images/contatc-bg.jpg");
+	background-size:120% 80%;
+	background-position: bottom right;
+	background-repeat:no-repeat;
+	margin-top:60px;
+	background-color: #1E8EFF;
+
+
+
+}
+
+.contacts h1{
+	font-family:"Nunito",sans-serif;
+	font-size:40px;
+	color:white;
+	margin:0 3%;
+
+}
+
+.contacts img{
+	float:left;
+	clear:left;
+	margin-top:-20px;
+	margin-left:2.8%;
+	transform:rotateX(150deg);
+
+}
+
+.contacts-icon i{
+	float:left;
+	border:2px solid white;
+	width:100px;
+	height:100px;
+	text-align: center;
+	padding:25px 0px;
+	color:white;
+	font-size:50px;
+	margin-right:167px;
+	margin-top:-13px;
+	cursor:pointer;
+}
+
+.contacts-icon i:first-child{
+	clear:left;
+}
+
+.footer{
+	width:100%;
+	height:40px;
+	float:left;
+	background:white;
+	padding:9px;
+	font-weight: bold;
+	font-size:18px;
+	color:#323232;
+}
+
+.email{
+	float:left;
+}
+
+.num{
+	float:right;
+}
+
+/* end contact */
+#but1{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
